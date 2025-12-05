@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="Operix.API/Operix.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="Operix.Application/Operix.Application.csproj" />
+    <Project Path="Operix.Domain/Operix.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="Operix.Identity/Operix.Identity.csproj" />
+    <Project Path="Operix.Infrastructure/Operix.Infrastructure.csproj" />
+    <Project Path="Operix.Persistence/Operix.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/src/UI/">
+    <Project Path="Operix.Blazor/Operix.Blazor.csproj" />
+  </Folder>
+</Solution>
