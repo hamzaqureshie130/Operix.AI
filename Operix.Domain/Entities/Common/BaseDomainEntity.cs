@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Operix.Domain.Entities.Common
+﻿namespace Operix.Domain.Entities.Common
 {
     public abstract class BaseDomainEntity
     {
