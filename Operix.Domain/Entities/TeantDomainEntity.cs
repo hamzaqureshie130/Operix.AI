@@ -1,4 +1,6 @@
-namespace Operix.Domain.Entities.Common
+using Operix.Domain.Entities.Common;
+
+namespace Operix.Domain.Entities
 {
     public class TeantDomainEntity:BaseDomainEntity
     {
@@ -12,12 +14,5 @@ namespace Operix.Domain.Entities.Common
 
         public ICollection<UserDomainEntity> Users { get; set; } = new List<UserDomainEntity>();
         public ICollection<CompanyDomainEntity> Companies { get; set; } = new List<CompanyDomainEntity>();
-    }
-
-     public enum TenantStatus
-    {
-        Active,
-        Suspended,
-        Cancelled
     }
 }

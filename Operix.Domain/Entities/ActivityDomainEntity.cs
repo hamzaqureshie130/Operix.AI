@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Operix.Domain.Entities.Common
+namespace Operix.Domain.Entities
 {
     public class ActivityDomainEntity:BaseDomainEntity
     {

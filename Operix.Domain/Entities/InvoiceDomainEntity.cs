@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Operix.Domain.Entities.Common;
 
-namespace Operix.Domain.Entities.Common
+namespace Operix.Domain.Entities
 {
-    public class InvoiceDomainEntity
+    public class InvoiceDomainEntity:BaseDomainEntity
     {
         public string Number { get; set; } // Invoice number
 

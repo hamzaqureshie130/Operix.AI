@@ -1,4 +1,6 @@
-namespace Operix.Domain.Entities.Common
+using Operix.Domain.Entities.Common;
+
+namespace Operix.Domain.Entities
 {
     public class UserDomainEntity : BaseDomainEntity
     {
